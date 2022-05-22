@@ -1,0 +1,39 @@
+.bg-image{
+    background-image: url('../pics/FS4IYpkaAAAyD18.jpeg');
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.flex-row{
+   display: flex;
+   flex: 1;
+    flex-direction: row;
+}
+
+.flex-row-reverse{
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+}
+
+.flex-columns{
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+
+.flex-columns-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.inline-blocks{
+    display: inline-block;
+      
+}
+
+.example-grid{
+    display: grid;
+    grid-column: 3;
+    grid-row: 2;
+    background-color: skyblue;
+}
